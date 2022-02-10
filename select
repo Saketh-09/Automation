@@ -1,0 +1,9 @@
+from selenium import wedriver
+from selenium.webdriver.common.by import by
+from selenium.manager.chrome import ChromeDriverManager
+from selenium.webdriver.support.ui import Select
+
+driver=webdriver.Chrome(ChromeDriverManager().install())
+driver.implicitly_wait(10)
+driver.get()
+driver.find_element(BY.)
